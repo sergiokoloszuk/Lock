@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "443972017756",
+    "firebase_url": "https://lock-c7720.firebaseio.com",
+    "project_id": "lock-c7720",
+    "storage_bucket": "lock-c7720.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443972017756:android:33a06f182356b459",
+        "android_client_info": {
+          "package_name": "br.com.klz.lock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443972017756-8fto780vk2phg4dffoio0qtjl1upkva5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.klz.lock",
+            "certificate_hash": "f7d4c12d684cd9661ea7846d71b7e4e86fe25022"
+          }
+        },
+        {
+          "client_id": "443972017756-sm3j2b2il7eb9f36qa85uj8sqndhraeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAekJeJPb3GImw1yGYyrobqUe53OrIVxg8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443972017756-sm3j2b2il7eb9f36qa85uj8sqndhraeb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
