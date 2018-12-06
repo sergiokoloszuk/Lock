@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="@dimen/default_padding"
-    android:layout_marginLeft="@dimen/default_padding"
-    android:layout_marginRight="@dimen/default_padding">
+    android:layout_marginLeft="@dimen/card"
+    android:layout_marginRight="@dimen/card">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="Nome do App"
+            android:text="@string/nomeDoApp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.031"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +37,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="User Name"
+            android:text="@string/userName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.029"
             app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +52,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="Email"
+            android:text="@string/email"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.026"
             app:layout_constraintStart_toStartOf="parent"
@@ -68,7 +68,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="Senha"
+            android:text="@string/senha"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.026"

@@ -19,7 +19,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
-        android:text="Digite as informações"
+        android:text="@string/digiteInformacoes"
         android:textColor="@color/colorAccent"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -45,7 +45,7 @@
         <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nome do App ou Site" />
+            android:hint="@string/nomeDoApp" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -64,7 +64,7 @@
         <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="User Name" />
+            android:hint="@string/userName" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -83,7 +83,7 @@
         <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email" />
+            android:hint="@string/email" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -104,7 +104,7 @@
         <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Senha" />
+            android:hint="@string/senha" />
     </android.support.design.widget.TextInputLayout>
 
     <Button
@@ -117,7 +117,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/colorAccent"
-        android:text="GRAVAR"
+        android:text="@string/gravar"
         android:textColor="@color/colorTextButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -132,7 +132,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="10dp"
-        android:text="Consultar registros"
+        android:text="@string/consultarRegistros"
         android:backgroundTint="@color/colorAccent"
         android:textColor="@color/colorTextButton"
         app:layout_constraintEnd_toEndOf="parent"

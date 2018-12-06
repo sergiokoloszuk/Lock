@@ -39,12 +39,14 @@ public class RegistroAdapter extends ArrayAdapter <Registros> {
             view = inflater.inflate(R.layout.lista_registros,parent,false);
 
             TextView textViewNomeApp = (TextView) view.findViewById( R.id.textView_nomeDoApp );
+            TextView textViewUserName = (TextView)view.findViewById( R.id.textView_user );
             TextView textViewEmail = (TextView)view.findViewById( R.id.textView_email );
             TextView textViewSenha = (TextView)view.findViewById( R.id.textView_senha );
 
             Registros registros2 = registros.get( position );
 
             textViewNomeApp.setText( registros2.getNomeApp() );
+            textViewUserName.setText(registros2.getUserName());
             textViewEmail.setText( registros2.getEmail() );
             textViewSenha.setText( registros2.getSenha() );
 

@@ -7,20 +7,54 @@
     android:orientation="vertical"
     tools:context=".activities.ConsultaDadosActivity">
 
-    <Button
-        android:id="@+id/btn_voltarConsulta"
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        android:text="Inserir novo registro"
-        android:backgroundTint="@color/colorAccent"
-        android:textColor="@color/colorTextButton"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="16dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+
+        <Button
+            android:id="@+id/btn_editarConsulta"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Excluir"
+            android:textColor="@color/colorTextButton" />
+
+        <Button
+            android:id="@+id/btn_voltarConsulta"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Inserir"
+            android:textColor="@color/colorTextButton" />
+
+        <Button
+            android:id="@+id/btn_excluirConsulta"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Editar"
+            android:textColor="@color/colorTextButton" />
+
+
+
+    </LinearLayout>
+
 
     <ListView
         android:id="@+id/listView_registros"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|top"/>
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>

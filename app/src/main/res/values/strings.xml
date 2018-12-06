@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Lock</string>
+    <string name="nomeDoApp">Nome do App ou Site</string>
+    <string name="userName">Nome do Usuário</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="registroUsuario">Registro Usuário</string>
+    <string name="confirmeSenha">Confirme Senha</string>
+    <string name="confirme">Confirme</string>
+    <string name="digiteInformacoes">Digite as informações</string>
+    <string name="gravar">GRAVAR</string>
+    <string name="consultarRegistros">Consultar Registros</string>
+    <string name="login">Login</string>
+    <string name="novoUsuario">Novo Usuário</string>
+    <string name="o_que_voc_quer_fazer">O que você quer fazer?</string>
+    <string name="inserir_um_novo_registro">Inserir um novo registro</string>
+    <string name="consultar_registros">Consultar Registros</string>
 </resources>
