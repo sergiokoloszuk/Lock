@@ -3,4 +3,5 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="default_padding">16dp</dimen>
     <dimen name="defaul_margin_top">8dp</dimen>
+    <dimen name="card">24dp</dimen>
 </resources>
