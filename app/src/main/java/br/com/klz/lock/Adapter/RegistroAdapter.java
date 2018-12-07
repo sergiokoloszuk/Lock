@@ -13,7 +13,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import br.com.klz.lock.R;
-import br.com.klz.lock.activities.RegistroDadosActivity;
+//import br.com.klz.lock.activities.RegistroDadosActivity;
 import br.com.klz.lock.model.Registros;
 
 public class RegistroAdapter extends ArrayAdapter <Registros> {

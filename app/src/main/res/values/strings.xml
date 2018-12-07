@@ -15,4 +15,15 @@
     <string name="o_que_voc_quer_fazer">O que você quer fazer?</string>
     <string name="inserir_um_novo_registro">Inserir um novo registro</string>
     <string name="consultar_registros">Consultar Registros</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_edit">Editar</string>
+    <string name="fragment_del">Deletar</string>
+    <string name="registrar">Registrar</string>
+    <string name="question">Tem certeza que deseja apagar?</string>
+    <string name="sim">SIM</string>
+    <string name="nao">NÃO</string>
+    <string name="excluir">Excluir</string>
+    <string name="inserir">Inserir</string>
+    <string name="editar">Editar</string>
+    <string name="inserir_novo_registro">Inserir Novo Registro</string>
 </resources>

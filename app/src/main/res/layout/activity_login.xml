@@ -6,10 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginRight="@dimen/default_padding"
+    android:layout_marginStart="@dimen/default_padding"
     android:layout_marginLeft="@dimen/default_padding"
+    android:layout_marginEnd="@dimen/default_padding"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     >
-
     <TextView
         android:id="@+id/textViewLogin"
         android:layout_width="wrap_content"
@@ -64,6 +65,11 @@
             android:inputType="textPassword"
             android:hint="@string/senha" />
     </android.support.design.widget.TextInputLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout_passwordLogin" />
 
     <Button
         android:id="@+id/btn_confirmLogin"
@@ -80,7 +86,8 @@
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout_passwordLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
 
 
 
