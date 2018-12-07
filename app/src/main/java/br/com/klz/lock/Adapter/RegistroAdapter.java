@@ -13,7 +13,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import br.com.klz.lock.R;
-//import br.com.klz.lock.activities.RegistroDadosActivity;
+import br.com.klz.lock.model.RegisterModel;
 import br.com.klz.lock.model.Registros;
 
 public class RegistroAdapter extends ArrayAdapter <Registros> {
@@ -38,10 +38,10 @@ public class RegistroAdapter extends ArrayAdapter <Registros> {
 
             view = inflater.inflate(R.layout.lista_registros,parent,false);
 
-            TextView textViewNomeApp = (TextView) view.findViewById( R.id.textView_nomeDoApp );
-            TextView textViewUserName = (TextView)view.findViewById( R.id.textView_user );
-            TextView textViewEmail = (TextView)view.findViewById( R.id.textView_email );
-            TextView textViewSenha = (TextView)view.findViewById( R.id.textView_senha );
+            TextView textViewNomeApp = view.findViewById( R.id.textView_nomeDoApp );
+            TextView textViewUserName = view.findViewById( R.id.textView_user );
+            TextView textViewEmail = view.findViewById( R.id.textView_email );
+            TextView textViewSenha = view.findViewById( R.id.textView_senha );
 
             Registros registros2 = registros.get( position );
 
