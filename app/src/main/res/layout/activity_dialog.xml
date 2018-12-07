@@ -14,7 +14,7 @@
         android:layout_marginBottom="10dp"
         android:layout_gravity="center"
         style="@style/TextAppearance.AppCompat.Title"
-        android:text="Inserir Novo Registro"/>
+        android:text="@string/inserir_novo_registro"/>
 
     <EditText
         android:id="@+id/edtNome"
@@ -24,7 +24,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
         android:inputType="text"
-        android:hint="Nome do App ou Site"
+        android:hint="@string/nomeDoApp"
         android:background="@drawable/editbg"/>
     <EditText
         android:id="@+id/edtUser"
@@ -34,7 +34,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
         android:inputType="textEmailAddress"
-        android:hint="Nome do usuario"
+        android:hint="@string/userName"
         android:background="@drawable/editbg"/>
     <EditText
         android:id="@+id/edtEmail"
@@ -44,7 +44,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
         android:inputType="textEmailAddress"
-        android:hint="Email"
+        android:hint="@string/email"
         android:background="@drawable/editbg"/>
     <EditText
         android:id="@+id/edtPass"
@@ -54,7 +54,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
         android:inputType="text"
-        android:hint="Senha"
+        android:hint="@string/senha"
         android:background="@drawable/editbg"/>
     <Button
         android:id="@+id/btnR"

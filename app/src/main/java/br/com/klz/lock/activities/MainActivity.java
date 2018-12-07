@@ -6,23 +6,22 @@ import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import br.com.klz.lock.Adapter.FragmentAdapter;
-import br.com.klz.lock.R;
-import br.com.klz.lock.model.RegisterModel;
-
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.UUID;
+
+import br.com.klz.lock.Adapter.FragmentAdapter;
+import br.com.klz.lock.R;
+import br.com.klz.lock.model.RegisterModel;
 
 public class MainActivity extends AppCompatActivity {
 
