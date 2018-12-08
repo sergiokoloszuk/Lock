@@ -1,4 +1,4 @@
-package br.com.klz.lock.activities;
+package br.com.klz.lock.Fragments;
 
 
 import android.app.AlertDialog;
@@ -28,6 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.klz.lock.R;
+import br.com.klz.lock.activities.MainActivity;
 import br.com.klz.lock.model.RegisterModel;
 
 /**
@@ -118,7 +119,7 @@ public class DelFragment extends Fragment {
                     lista.setAdapter(adapterRegister);
                     barralist.setVisibility(ProgressBar.INVISIBLE);
                 }else{
-                    Toast.makeText(getActivity(), "Nenhum Registro Encontrado", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), R.string.nenhum_registro, Toast.LENGTH_SHORT).show();
                     barralist.setVisibility(ProgressBar.INVISIBLE);
                 }
             }
