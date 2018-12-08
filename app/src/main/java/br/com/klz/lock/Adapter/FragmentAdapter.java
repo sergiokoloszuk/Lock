@@ -6,8 +6,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import br.com.klz.lock.R;
-import br.com.klz.lock.activities.DelFragment;
-import br.com.klz.lock.activities.EditFragment;
+import br.com.klz.lock.Fragments.DelFragment;
+import br.com.klz.lock.Fragments.EditFragment;
 
 public class FragmentAdapter extends FragmentPagerAdapter {
 
