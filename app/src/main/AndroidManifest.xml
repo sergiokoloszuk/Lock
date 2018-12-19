@@ -21,9 +21,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.RegistroUsuarioActivity" />
-        <activity android:name=".activities.EscolhaActivity" />
-        <activity android:name=".activities.RegistroDadosActivity" />
-        <activity android:name=".activities.ConsultaDadosActivity"/>
         <activity android:name=".activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
     </application>

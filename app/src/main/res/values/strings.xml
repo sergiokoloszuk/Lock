@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lock</string>
+    <string name="app_name">Locker</string>
     <string name="nomeDoApp">Nome do App ou Site</string>
     <string name="userName">Nome do Usuário</string>
     <string name="email">Email</string>
