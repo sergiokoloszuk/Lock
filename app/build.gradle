@@ -33,7 +33,7 @@ android {
         release {
             keyAlias keystoreProperties["MEU_APP_KEYSTORE_ALIAS"]
             keyPassword keystoreProperties["MEU_APP_KEYSTORE_ALIAS_PASS"]
-            storeFile file(keystoreProperties["MEU_APP_KEYSTORE_STORE"])
+            storeFile(keystoreProperties["MEU_APP_KEYSTORE_STORE"])
             storePassword keystoreProperties["MEU_APP_KEYSTORE_KEY_PASS"]
         }
     }
